@@ -1,1 +1,45 @@
+h1 {
+color:springgreen; 
+text-align:center;
+font-size:34px;
+}
 
+h2 {
+color:darkgreen;
+font-size:28px;
+}
+
+h3 {
+color:darkblue;
+font-size:24px;
+}
+
+h4 {
+color:darkred;
+}
+
+div {
+font-size:22px;
+width:1100px;
+margin-left:90px;
+}
+
+.note {
+width:75%; 
+border-collapse:collapse;
+border:1px solid;
+background-color:#777777;
+font-size:20px;
+margin-left:110px;
+}
+
+ul > li {
+font-weight:bold;
+}
+
+
+footer {
+text-align:center;
+margin-top:180px;
+margin-bottom:180px;
+}
