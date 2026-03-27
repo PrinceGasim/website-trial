@@ -8,7 +8,80 @@ content="width=device-width, initial-scale=1.0">
 Main
 </title>
 <style>
-<link href='styles.css' rel='stylesheet'>
+ @keyframes grow{
+from {
+font-size:20px;
+}
+to {
+font-size:50px;
+}
+}
+
+@keyframes move{
+0% {
+left:10%;
+}
+50% {
+left:70%;
+}
+100% {
+left:10%;
+}
+}
+
+h1 {
+animation-name:grow;
+animation-duration:2s;
+animation-fill-mode:forwards;
+color:springgreen; 
+text-align:center;
+font-size:34px;
+}
+
+h2 {
+color:darkgreen;
+font-size:28px;
+}
+
+h3 {
+color:darkblue;
+font-size:24px;
+}
+
+h4 {
+color:darkred;
+position:relative;
+animation-name:move;
+animation-duration:15s;
+animation-fill-mode:forwards;
+animation-iteration-count:infinite;
+}
+
+div {
+font-size:22px;
+width:1100px;
+margin-left:90px;
+}
+
+.note {
+width:75%; 
+border-collapse:collapse;
+border:1px solid;
+background-color:#777777;
+font-size:20px;
+margin-left:110px;
+}
+
+ul > li {
+font-weight:bold;
+}
+
+
+footer {
+text-align:center;
+margin-top:180px;
+margin-bottom:180px;
+}
 </style>
 </head>
 
